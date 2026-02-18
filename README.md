@@ -134,26 +134,6 @@ pip install pytest
 pytest tests/ -v
 ```
 
-## Uploading to GitHub
-
-1. **Create a new repository** on GitHub (e.g. `area2waypoint`). Do not initialize with a README if you already have one locally.
-
-2. **Initialize git and push** from your project directory:
-
-```bash
-cd /path/to/your/converter/project
-git init
-git add .
-git status   # Verify only converter files are staged (no thermal_alignment, odm_project, etc.)
-git commit -m "Initial commit: Area mission to waypoint converter"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/area2waypoint.git
-git push -u origin main
-```
-
-3. **Update the clone URL** in this README: replace `YOUR_USERNAME` with your GitHub username in the `git clone` URL.
-
-4. **Optional**: Add a LICENSE file (e.g. MIT).
 
 ## License
 
