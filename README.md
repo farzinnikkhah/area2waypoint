@@ -157,4 +157,4 @@ git push -u origin main
 
 ## License
 
-MIT (or your chosen license)
+MIT
