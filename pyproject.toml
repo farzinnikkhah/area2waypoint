@@ -17,6 +17,7 @@ area2waypoint = "src.cli:main"
 where = ["."]
 include = ["src*"]
 
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["."]
