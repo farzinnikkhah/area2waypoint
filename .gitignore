@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual env
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temp / generated
+tmp_*/
+*.log
+*.out
+*.err
+kmz_tmp/
+odm_project/
+odm_*.out
+odm_*.err
+
+# Exclude non-converter project dirs (for GitHub upload)
+thermal_alignment/
+route_samples/
+dji_thermal_sdk/
+run_odm.sbatch
+*_shots*.csv
+*_shot_points*.csv
+*_waypoints*.csv
+DJI_*/
+Create-Area-*.kmz
+*.JPG
+*.T.JPG
+*.W.JPG
+M30T-*.kmz
+Waypoint*.kmz
+cache/
+cache_tmp/
+orig_tmp/
+waypoint*_tmp/
+metadata_xmp*
+reconstruction_*.txt
+output.kmz
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

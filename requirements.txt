@@ -1,0 +1,2 @@
+# Area Mission To Waypoint Converter - no external deps required for core
+# Uses stdlib: xml.etree, zipfile, argparse, csv
